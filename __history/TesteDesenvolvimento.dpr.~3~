@@ -1,0 +1,16 @@
+program TesteDesenvolvimento;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {fPrincipal},
+  uDAO in 'uDAO.pas' {DAO: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfPrincipal, fPrincipal);
+  Application.CreateForm(TDAO, DAO);
+  Application.Run;
+end.

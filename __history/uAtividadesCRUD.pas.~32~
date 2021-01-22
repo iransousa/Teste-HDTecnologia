@@ -1,0 +1,149 @@
+unit uAtividadesCRUD;
+
+interface
+
+uses
+
+  Windows, SysUtils, Classes, Controls, Forms, ComCtrls, uDAO,FireDAC.Comp.Client;
+
+type
+
+  TAtividadesCRUD = class
+  private
+
+    FCodigo: String;
+
+    FNome: String;
+
+    // Classe de Persistencia ...
+
+  public
+
+    constructor Create();
+
+    destructor Destroy; override;
+
+    //
+
+    function InsereAtividade: Boolean;
+
+    function AlteraAtividade: Boolean;
+
+    function ExcluirAtividade: Boolean;
+
+    function PesquisaAtividade(pCodigo: string): TAtividadesCRUD;
+
+    //
+
+    property Codigo: String read FCodigo write FCodigo;
+
+    property Nome: String read FNome write FNome;
+
+  end;
+
+implementation
+
+{ TAtividadesCRUD }
+
+function TAtividadesCRUD.AlteraAtividade: Boolean;
+begin
+  Fcontrole.SQL.Clear;
+  Fcontrole.SQL.Add(' UPDATE ATIVIDADES ');
+  Fcontrole.SQL.Add(' SET NOME = :NOME, ');
+  Fcontrole.ParamByName('NOME').AsString := Self.Nome;
+  try
+
+    Fcontrole.ExecSQL;
+
+    Result := True;
+
+  except
+
+    Result := False;
+
+  end;
+end;
+
+constructor TAtividadesCRUD.Create();
+begin
+  Fcontrole := DAO.qryAtividades;
+end;
+
+destructor TAtividadesCRUD.Destroy;
+begin
+
+  inherited;
+end;
+
+function TAtividadesCRUD.ExcluirAtividade: Boolean;
+begin
+
+  Fcontrole.Close;
+
+  Fcontrole.SQL.Clear;
+
+  Fcontrole.SQL.Add(' DELETE FROM ATIVIDADES C ');
+
+  Fcontrole.SQL.Add(' WHERE C.CODIGO = :CODIGO ');
+
+  Fcontrole.ParamByName('CODIGO').AsString := Self.Codigo;
+
+  try
+
+    Fcontrole.ExecSQL;
+
+    Result := True;
+
+  except
+
+    Result := False;
+
+  end
+end;
+
+function TAtividadesCRUD.InsereAtividade: Boolean;
+begin
+  Fcontrole.SQL.Clear;
+  Fcontrole.SQL.Add(' INSERT INTO ATIVIDADES ');
+  Fcontrole.SQL.Add(' (CODIGO, ');
+  Fcontrole.SQL.Add(' CLI_OBSERVA) ');
+  Fcontrole.SQL.Add(' VALUES (:CODIGO, ');
+  Fcontrole.SQL.Add(' :NOME, ');
+  Fcontrole.ParamByName('CODIGO').AsString := Self.Codigo;
+  Fcontrole.ParamByName('NOME').AsString := Self.Nome;
+  try
+    Fcontrole.ExecSQL;
+    Result := True;
+  except
+    Result := False;
+  end;
+end;
+
+function TAtividadesCRUD.PesquisaAtividade(pCodigo: string): TAtividadesCRUD;
+begin
+  Fcontrole.Close;
+
+  Fcontrole.SQL.Clear;
+
+  Fcontrole.SQL.Add(' SELECT CODIGO, ');
+
+  Fcontrole.SQL.Add(' NOME ');
+
+  Fcontrole.SQL.Add(' FROM ATIVIDADES ');
+
+  Fcontrole.SQL.Add(' WHERE CODIGO = ' + pCodigo);
+
+  Fcontrole.Open;
+
+  if Fcontrole.IsEmpty then
+  begin
+    Self.Codigo := '';
+  end
+  else
+  begin
+    Self.Codigo := Fcontrole.ParamByName('CODIGO').AsString;
+    Self.Nome := Fcontrole.ParamByName('NOME').AsString;
+  end;
+
+end;
+end.

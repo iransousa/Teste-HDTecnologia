@@ -1,0 +1,83 @@
+unit Rotinas;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Forms, Dialogs, Variants, Math;
+
+procedure PreencheLista(Lista: TStringList);
+function LocalizaMaiorNumero(Lista: TStringList): String;
+function MontarLista(Lista: TStringList): TStringList;
+function MySortProc(List: TStringList; Index1, Index2: Integer): Integer;
+
+implementation
+
+procedure PreencheLista(Lista: TStringList);
+var
+  i, intNum: Integer;
+begin
+  Lista.Clear;
+  Randomize;
+
+  for i := 1 to 100 do
+  begin
+    intNum := Random(999);
+
+    if (intNum mod 5) = 0 then
+      intNum := intNum * 1000000;
+
+    if (intNum mod 2) = 0 then
+      intNum := intNum * -1;
+
+    Lista.Add(IntToStr(intNum));
+  end;
+  LocalizaMaiorNumero(Lista);
+end;
+
+function MontarLista(Lista: TStringList): TStringList;
+var
+  i, intNum: Integer;
+begin
+  Lista.Clear;
+  Randomize;
+  for i := 1 to 100 do
+  begin
+    intNum := Random(999);
+
+    if (intNum mod 5) = 0 then
+      intNum := intNum * 1000000;
+
+    if (intNum mod 2) = 0 then
+      intNum := intNum * -1;
+
+    Lista.Add(IntToStr(intNum));
+  end;
+  Lista.CustomSort(MySortProc);
+  Lista.Sort;
+  Result := Lista;
+end;
+
+function LocalizaMaiorNumero(Lista: TStringList): String;
+var
+  Valor: String;
+  i: Integer;
+begin
+  Valor := Lista[Lista.Count-1];
+  Result := Valor;
+end;
+
+function MySortProc(List: TStringList; Index1, Index2: Integer): Integer;
+var
+  Value1, Value2: Integer;
+begin
+  Value1 := StrToInt(List[Index1]);
+  Value2 := StrToInt(List[Index2]);
+  if Value1 < Value2 then
+    Result := -1
+  else if Value2 < Value1 then
+    Result := 1
+  else
+    Result := 0;
+end;
+
+end.
