@@ -1016,19 +1016,16 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'RESPONSAVEL'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TRANSPORTADORA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'INTERMEDIARIO'
-              Width = 64
               Visible = True
             end
             item
@@ -1039,19 +1036,16 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DOCORIGEM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'HISTORICO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CUSTO'
-              Width = 64
               Visible = True
             end
             item
@@ -1072,13 +1066,11 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'SERIE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SUBSERIE'
-              Width = 64
               Visible = True
             end
             item
@@ -1099,85 +1091,71 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DESCONTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ACRESCIMO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VRBRUTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'FRETE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SEGURO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'OUTROS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TIPOFRETE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'IR'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'BASEICMS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VALORICMS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'BASEST'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VALORST'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VALORIPI'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ICMSFRETE'
-              Width = 64
               Visible = True
             end
             item
@@ -1188,43 +1166,36 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DOCIMPRESSO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CODIGOENVIO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'LOCALENVIO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PENDENTE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ALTERACUSTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VRLIQUIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VRTOTAL'
-              Width = 64
               Visible = True
             end
             item
@@ -1235,31 +1206,26 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'PEDIDO_VAIVEM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VALORLIQUIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'COMPLEMENTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VENDEDORTROCA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'MAPACARREGAMENTO'
-              Width = 64
               Visible = True
             end
             item
@@ -1270,31 +1236,26 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'CONTRATOREFERENCIA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TIPOVENDA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DATAHORA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DATACONFERENCIA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DATAPEDIDO'
-              Width = 64
               Visible = True
             end
             item
@@ -1305,7 +1266,6 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'CONFERENTE'
-              Width = 64
               Visible = True
             end
             item
@@ -1316,55 +1276,46 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'ENDENTREGA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'BRRENTREGA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CIDENTREGA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CEPENTREGA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CMPENTREGA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DESCONTOFINANCEIRO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'IVA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SEPARADOR'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ISENTAENTREGA'
-              Width = 64
               Visible = True
             end
             item
@@ -1375,7 +1326,6 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'MOTIVOANVISA'
-              Width = 64
               Visible = True
             end
             item
@@ -1396,67 +1346,56 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'VALORISS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'NRNFE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDORETENCAO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PISCOFINS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PERIR'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TOTALSERVICOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DT_PROCESSAMENTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VOLUME'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PESO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PESOBRUTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'NOTACOMPLEMENTAR'
-              Width = 64
               Visible = True
             end
             item
@@ -1467,19 +1406,16 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'COFINS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PIS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CSLL'
-              Width = 64
               Visible = True
             end
             item
@@ -1495,31 +1431,26 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'ESPECIEVOLUME'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'MARCAVOLUME'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TABELAPRECOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TIPODOCUMENTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'FRETEVINCULADO'
-              Width = 64
               Visible = True
             end
             item
@@ -1535,19 +1466,16 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'NFDAEMPRESA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ENTRADACONSIGNADA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SEQUENCIANRNF'
-              Width = 64
               Visible = True
             end
             item
@@ -1558,91 +1486,76 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'IMPRESSO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'EMBALAGEMPRESENTE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'RETIRARBALCAO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ADINTAMENTOPEDIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ORCAMENTO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDOORIGEM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'IPIFRETE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'UFEMBARQ'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'LOCEMBARQ'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDORETENCAOPISCONFINSISSL'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'UFPLACA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PLACA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'OBSNFE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDORETENCAOINSS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'STATUSRESERVA'
-              Width = 64
               Visible = True
             end
             item
@@ -1653,25 +1566,21 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DTHRSAIDANFE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VALORII'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CTRLPROJETO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'BASEIPI'
-              Width = 64
               Visible = True
             end
             item
@@ -1687,37 +1596,31 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'CONSIGNADOPENDENTE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CTRCILINDROS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TIPORESERVAESTOQUE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'LIBERADORRESERVAESTOQUE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DTLIBERACAORESERVAESTOQUE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DTLIVERACAORESRVESTOQDATA'
-              Width = 64
               Visible = True
             end
             item
@@ -1728,43 +1631,36 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'BASEICMSMANUAL'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'REQUISICAOPECAOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'OUTROSCREDITOSICM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TOTTRIB'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CALCULOIVASEMREDUCAO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ORDEMPRODUCAO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDOAGRUPAMENTO'
-              Width = 64
               Visible = True
             end
             item
@@ -1775,19 +1671,16 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'CONSUMIDOR'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'VRBRUTOORIGINAL_PRC'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'RATEIOPREVISAOCONTAAPAGAR'
-              Width = 64
               Visible = True
             end
             item
@@ -1798,37 +1691,31 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'TMP_PEDIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'FATURASERVICOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SERIESERVICOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'MODELOSERVICOS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SEQUENCIANRNFS'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CANCELADOECOMM'
-              Width = 64
               Visible = True
             end
             item
@@ -1839,25 +1726,21 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DESCONTOSERV'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ACRESCIMOSERV'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DTPRESTSERV'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDO_SFA'
-              Width = 64
               Visible = True
             end
             item
@@ -1873,79 +1756,66 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'EQUIPE_SFA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'GERENTE_SFA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'SUPERVISOR_SFA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CPFCUPOM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'NOMECUPOM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'POSICAOCOBRANCA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CAPATAZIA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TXSISCOMEX'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PISRETIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'COFINSRETIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CSLLRETIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TRIBUTOOUTROSLANC'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'DESCRICAOOUTROSLANC'
-              Width = 64
               Visible = True
             end
             item
@@ -1956,13 +1826,11 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DTAPURACAO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'COMISSAOINTERMEDIARIO'
-              Width = 64
               Visible = True
             end
             item
@@ -1973,7 +1841,6 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'DEPARTAMENTO'
-              Width = 64
               Visible = True
             end
             item
@@ -1984,67 +1851,56 @@ object fPrincipal: TfPrincipal
             item
               Expanded = False
               FieldName = 'VRCREDITOANTECIPADO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PESSOAORIGPDD'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PESOAFERIDO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'NOTAAJUSTE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'CUPOMECOMMERCE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'USUARIO'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'FATURARPARA'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'TIPOORIGEM'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'PEDIDOBASE'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'ARMAZENADOPOR'
-              Width = 64
               Visible = True
             end
             item
               Expanded = False
               FieldName = 'NVENDALOCAL'
-              Width = 64
               Visible = True
             end
             item
